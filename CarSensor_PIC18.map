@@ -1,0 +1,76 @@
+MPLINK 4.39, Linker
+Linker Map File - Created Sat Feb 06 19:37:11 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000004
+                   .org_2       code   0x000008    program   0x000006
+                   .org_3       code   0x000100    program   0x00002e
+                   .org_4       code   0x000320    program   0x000012
+                   .org_5       code   0x000460    program   0x000016
+                   .org_6       code   0x000550    program   0x000010
+                   .org_7       code   0x000600    program   0x000004
+                   .org_8       code   0x000610    program   0x000004
+.config_300001_CARSENSOR_PIC18.O    romdata   0x300001    program   0x000001
+.config_300002_CARSENSOR_PIC18.O    romdata   0x300002    program   0x000001
+.config_300003_CARSENSOR_PIC18.O    romdata   0x300003    program   0x000001
+.config_300005_CARSENSOR_PIC18.O    romdata   0x300005    program   0x000001
+.config_300006_CARSENSOR_PIC18.O    romdata   0x300006    program   0x000001
+.config_300008_CARSENSOR_PIC18.O    romdata   0x300008    program   0x000001
+.config_300009_CARSENSOR_PIC18.O    romdata   0x300009    program   0x000001
+.config_30000A_CARSENSOR_PIC18.O    romdata   0x30000a    program   0x000001
+.config_30000B_CARSENSOR_PIC18.O    romdata   0x30000b    program   0x000001
+.config_30000C_CARSENSOR_PIC18.O    romdata   0x30000c    program   0x000001
+.config_30000D_CARSENSOR_PIC18.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000003      
+                            0x000008    0x00000d      
+                            0x000100    0x00012d      
+                            0x000320    0x000331      
+                            0x000460    0x000475      
+                            0x000550    0x00055f      
+                            0x000600    0x000603      
+                            0x000610    0x000613      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            131 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  ADC_ISR   0x000332    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                    DELAY   0x00012e    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                     INFN   0x000128    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                      LOP   0x000328    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                    LOP_2   0x00055a    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                     MAIN   0x00000e    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                   OFFGRN   0x000604    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                    ONGRN   0x000560    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                    SOUND   0x000476    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     MAIN   0x00000e    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                     INFN   0x000128    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                    DELAY   0x00012e    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                      LOP   0x000328    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                  ADC_ISR   0x000332    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                    SOUND   0x000476    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                    LOP_2   0x00055a    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                    ONGRN   0x000560    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+                   OFFGRN   0x000604    program     static C:\Users\GhinY\Desktop\LocalEmerald\CarSensor_PIC18\CarSensor_PIC18.asm
+
+
